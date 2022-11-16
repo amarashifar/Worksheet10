@@ -1,0 +1,984 @@
+    1  cat histogram4.dat 
+    2  ls
+    3  cat a2.txt 
+    4  cat Q2_graph.txt 
+    5  history
+    6  ls
+    7  rm histogram4.dat 
+    8  rm /home/amirali/gnuplot-5.4.5/src/histogram4.dat 
+    9  cat original_authors_of_the_tweets.tsv 
+   10  awk '{ if ($1 >= 3) {print} }' original_authors_of_the_tweets.tsv 
+   11  awk '{ if ($1 >= 3) {print} }' original_authors_of_the_tweets.tsv > histogram4.dat
+   12  cp histogram4.dat /home/amirali/gnuplot-5.4.5/src/
+   13  cd /home/amirali/gnuplot-5.4.5/src/
+   14  ./gnuplot 
+   15  ls
+   16  ls *.dat
+   17  ./gnuplot 
+   18  display gnu4.svg 
+   19  exit
+   20  cd /home/amirali/gnuplot-5.4.5/src/
+   21  display gnu4.svg 
+   22  display gnu.svg 
+   23  cd 
+   24  cd /mnt/scratch/amirali/
+   25  ls
+   26  cd A4/
+   27  ls
+   28  cd /home/amirali/A3/
+   29  ls
+   30  cat Q1_graph.txt 
+   31  mv Q2_graph.txt replied_to_graph.csv
+   32  cat replied_to_graph.csv 
+   33  mv Q1_graph.txt replied_to_graph.csv
+   34  cat replied_to_graph.csv 
+   35  pwd
+   36  eixt
+   37  exit
+   38  cd /home/amirali/gnuplot-5.4.5/src/
+   39  cat histogram4.dat 
+   40  CLEAR
+   41  clear
+   42  ./gnuplot 
+   43  display gnu.svg 
+   44  ./gnuplot 
+   45  display gnu4.svg 
+   46  clear
+   47  ls
+   48  cd gnuplot-5.4.5/src/
+   49  ./gnuplot 
+   50  display gnu4.svg 
+   51  exit
+   52  clear
+   53  ls
+   54  cd /home/amirali/gnuplot-5.4.5/src/
+   55  ls
+   56  display gnu4.svg 
+   57  ./gnuplot 
+   58  ls
+   59  cat histogram.dat 
+   60  cd /mnt/scratch/amirali/
+   61  cd A4/
+   62  ls
+   63  head original_authors_of_the_tweets.tsv 
+   64  cat original_authors_of_the_tweets.tsv 
+   65  ls
+   66  head Q2_graph.txt 
+   67  head histogram4.dat 
+   68  sort -nr histogram4.dat | uniq -c | sort -nr
+   69  sort -nr histogram4.dat | uniq -c | sort -nr | head -n 20
+   70  cat histogram4.dat 
+   71  sort -nr histogram4.dat | 
+   72  sort -nr histogram4.dat | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+   73  sort -nr histogram4.dat | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' > histogram4.dat 
+   74  cat histogram4.dat 
+   75  head histogram4.dat 
+   76  clear
+   77  ls
+   78  rm histogram4.dat 
+   79  cut -f Q2_graph.txt 
+   80  cut -f 2 Q2_graph.txt 
+   81  clear
+   82  ls
+   83  head combinedfile.tsv 
+   84  head original_authors_of_the_tweets.tsv 
+   85  sort -nr  original_authors_of_the_tweets.tsv | awk '{ if ($1 >= 3) {print} }'
+   86  sort -nr  original_authors_of_the_tweets.tsv | awk '{ if ($1 >= 3) {print} }' > histogram4.dat
+   87  head histogram4.dat 
+   88  cat histogram4.dat 
+   89  sort histogram4.dat | uniq -c | sort -nr
+   90  sort original_authors_of_the_tweets.tsv | uniq -c  | sort -nr | awk '{ if ($1 >= 3) {print} }' 
+   91  sort original_authors_of_the_tweets.tsv | awk '{ if ($1 >= 3) {print} }' > histogram4.dat 
+   92  head histogram4.dat 
+   93  cp histogram4.dat /home/amirali/gnuplot-5.4.5/src/
+   94  cd /home/amirali/gnuplot-5.4.5/src/
+   95  ls
+   96  rm histogram.*
+   97  cat histogram4.dat 
+   98  ./gnuplot 
+   99  display graph.svg 
+  100  exit
+  101  cd /mnt/scratch/amirali/
+  102  ls
+  103  cd A4/
+  104  ls
+  105  cd /home/amirali/gnuplot-5.4.5/src/
+  106  ls
+  107  history
+  108  display graph.svg 
+  109  display graph.svg
+  110  ./gnuplot 
+  111  display mygraph.svg 
+  112  display graph.svg
+  113  ls
+  114  display mygraph.svg 
+  115  history
+  116  display graph.svg
+  117  lls
+  118  ls
+  119  rm *.svg
+  120  ls
+  121  ./gnuplot 
+  122  display gnu.svg 
+  123  head histogram4.dat 
+  124  ./gnuplot 
+  125  display mygnu.svg 
+  126  exit
+  127  cd /home/amirali/gnuplot-5.4.5/src/
+  128  dipslay mygnu.svg 
+  129  ls
+  130  display mygnu.svg 
+  131  ./gnuplot 
+  132  display gnu34.svg 
+  133  cp gnu34.svg /mnt/scratch/amirali/A4/
+  134  touch gnuCommands.txt
+  135  nano gnuCommands.txt 
+  136  cp gnuCommands.txt /mnt/scratch/amirali/A4/
+  137  ls
+  138  cd /mnt/scratch/amirali/A4/
+  139  ls
+  140  head a4.txt 
+  141  cat a4.txt 
+  142  rm a4b.txt 
+  143  ls
+  144  cat a1.txt 
+  145  ls
+  146  cat a1b.txt 
+  147  a1b.txt >> a1.txt 
+  148  cat a1b.txt >> a1.txt 
+  149  cat a1.txt >> a4.txt 
+  150  nano a4.txt 
+  151  ls
+  152  rm a1b.txt 
+  153  ls
+  154  cat a2.txt >> a4.txt 
+  155  rm a2.txt 
+  156  ls
+  157  cat gnuCommands.txt >> a4.txt 
+  158  cat lastquestion.txt 
+  159  cat lastquestionb.txt 
+  160  rm lastquestionb.txt 
+  161  ls
+  162  cat lastquestion.txt >> a4.txt 
+  163  ls
+  164  rm gnuCommands.txt 
+  165  rm a1.txt 
+  166  rm authors_of_retweets.tsv combinedfile.tsv lastquestion.txt 
+  167  rm original_authors_of_the_tweets.tsv 
+  168  ls
+  169  rm downloaded_tweets_extend_original_nolf2_NOBOT.tsv downloaded_tweets_extend_nolf2_NOBOT.tsv 
+  170  ls
+  171  rm retweet_id.tsv 
+  172  git init
+  173  git add a4.txt gnu34.svg histogram4.dat Q1_graph.txt Q2_graph.txt 
+  174  git commit -m "final files"
+  175  git branch -M main
+  176  git remote add origin https://github.com/amarashifar/A4.git
+  177  git push -u origin main
+  178  git pull
+  179  exit
+  180  ls
+  181  cd /mnt/scratch/amirali/A4/
+  182  git pull
+  183  clear
+  184  ls
+  185  cat a6.txt >> a4.txt 
+  186  git add -A
+  187  git commit "added the gephi files" 
+  188  git -m commit "added the gephi files" 
+  189  git push
+  190  git commit -m "added the gephi files"
+  191  git push
+  192  git pull
+  193  grep 997682274 downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4
+  194  grep 15801906 downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4
+  195  cd /mnt/scratch/amirali/
+  196  cd A4/
+  197  ls
+  198  git pill
+  199  git pull
+  200  clear
+  201  cd ..
+  202  ;s
+  203  ls
+  204  rm -rf 6/
+  205  ls
+  206  history
+  207   314  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv A4
+  208  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv TWE_Fold
+  209  ls
+  210  rm TWE_Fold 
+  211  mkdir folder
+  212  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv folder/
+  213  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv folder/
+  214  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_original_nolf2.tsv > downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  215  cd folder/
+  216  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_original_nolf2.tsv > downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  217  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_nolf2.tsv > downloaded_tweets_extend_nolf2_NOBOT.tsv
+  218  ls
+  219  rm downloaded_tweets_extend_nolf2*
+  220  ls
+  221  rm downloaded_tweets_extend_original_nolf2.tsv 
+  222  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_nolf2.tsv > downloaded_tweets_extend_nolf2_NOBOT.tsv
+  223  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv folder/
+  224  cd
+  225  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv /mnt/scratch/amirali/folder/
+  226  cd /mnt/scratch/amirali/folder/
+  227  ls
+  228  rm downloaded_tweets_extend_nolf2.tsv 
+  229  ls
+  230  grep 997682274 downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  231  grep 997682274 downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6
+  232  grep 997682274 downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4
+  233  grep 15801906 downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4
+  234  script a7.txt
+  235  cp a7.txt /mnt/scratch/amirali/A4/
+  236  cd /mnt/scratch/amirali/A4/
+  237  ls
+  238  cat a7.txt a4.txt 
+  239  cat a4.txt 
+  240  cat a7.txt 
+  241  cat a7.txt >> a4.txt 
+  242  ls
+  243  rm *.gephi
+  244  ls
+  245  rm a7.txt 
+  246  git -A add
+  247  gdd add -A
+  248  git commit -m "final changes"
+  249  git add
+  250  git add a4.txt 
+  251  git commit -m "final changes"
+  252  git push
+  253  ls
+  254  git pull
+  255  ls
+  256  git -A add
+  257  git add *.gephi
+  258  git commit -m "gephi files"
+  259  git push
+  260  ls
+  261  exit
+  262  cat workSheet.tsv | tr -d "," | tr -d "." | tr -d ";" | tr -d "and" | tr -d "or" |tr -d "in" | tr -d "it" 
+  263  grep 52157117 amazon_reviews_us_Books_v1_02.tsv | cut -f 14 > workSheet.tsv
+  264  cat workSheet.tsv | tr -d "," | tr -d "." | tr -d ";"  > test.tsv
+  265  sed -e 's/\<and\>//g' test.tsv | sed -e 's/\<or\>//g' | sed -e 's/\<if\>//g' | sed -e 's/\<in\>//g'| sed -e 's/\<it\>//g' > test1.tsv
+  266  sed -e 's/<[^>]*>//g' test1.tsv 
+  267  clear
+  268  cd /mnt/scratch/amirali/
+  269  ls
+  270  cd
+  271  ls
+  272  cp amazon_reviews_us_Books_v1_02.tsv /mnt/scratch/amirali/
+  273  grep 52157117 amazon_reviews_us_Books_v1_02.tsv 
+  274  grep R18TY4WD19OUAO amazon_reviews_us_Books_v1_02.tsv 
+  275  clear
+  276  grep R18TY4WD19OUAO amazon_reviews_us_Books_v1_02.tsv 
+  277  grep R18TY4WD19OUAO amazon_reviews_us_Books_v1_02.tsv > workSheet.tsv
+  278  cat workSheet.tsv 
+  279  cut -f10  amazon_reviews_us_Books_v1_02.tsv 
+  280  ls 
+  281  cp workSheet.tsv /mnt/scratch/amirali/
+  282  cd /mnt/scratch/amirali/
+  283  ls
+  284  clear
+  285  ls
+  286  cut -f 14 workSheet.tsv 
+  287  cut -f 14 workSheet.tsv > workSheet.tsv 
+  288  cat workSheet.tsv 
+  289  ls
+  290  grep 52157117 amazon_reviews_us_Books_v1_02.tsv | cut -f 14
+  291  grep 52157117 amazon_reviews_us_Books_v1_02.tsv | cut -f 14 > workSheet.tsv 
+  292  cat workSheet.tsv 
+  293  ls
+  294  clear
+  295  ls
+  296  cat workSheet.tsv 
+  297  sed 's/,/\g' workSheet.tsv 
+  298  sed ', d' workSheet.tsv 
+  299  tr -d ',' workSheet.tsv 
+  300  tr -d "," workSheet.tsv 
+  301  cat workSheet.tsv | tr -d ","
+  302  script ws5.txt
+  303  rm ws5.txt 
+  304  cat workSheet.tsv | tr -d "," | tr -d "." | tr -d ";"  
+  305  sed 'is d' workSheet.tsv 
+  306  cat workSheet.tsv 
+  307  sed 's/\<is\>//g' workSheet.tsv 
+  308  sed 's/\<is\>//g' workSheet.tsv > test.tsv
+  309  nano test.tsv 
+  310  rm test.tsv 
+  311  sed -e 's/\<is\>//g' workSheet.tsv | sed -e 's/\<it\>//g'
+  312  sed -e 's/\<is\>//g' workSheet.tsv | sed -e 's/\<and\>//g' | 's/\<or\>//g' | 's/\<if\>//g' | 's/\<in\>//g' 
+  313  sed -e 's/\<and\>//g' workSheet.tsv | sed -e 's/\<or\>//g' | sed -e 's/\<if\>//g'
+  314  sed -e 's/\<and\>//g' workSheet.tsv | sed -e 's/\<or\>//g' | sed -e 's/\<if\>//g' | sed -e 's/\<in\>//g'| sed -e 's/\<it\>//g'
+  315  sed -e 's/<[^>]*>//g' workSheet.tsv 
+  316  history
+  317  cat workSheet.tsv | tr -d "," | tr -d "." | tr -d ";"  | sed -e 's/\<or\>//g' | sed -e 's/\<if\>//g' | sed -e 's/\<in\>//g'| sed -e 's/\<it\>//g
+  318  cat workSheet.tsv | tr -d "," | tr -d "." | tr -d ";"  | sed -e 's/\<or\>//g' | sed -e 's/\<if\>//g' | sed -e 's/\<in\>//g'| sed -e 's/\<it\>//g
+  319  clear
+  320  clear
+  321  history
+  322  cat workSheet.tsv | tr -d "," | tr -d "." | tr -d ";"  > test.tsv
+  323  sed -e 's/\<and\>//g' test.tsv | sed -e 's/\<or\>//g' | sed -e 's/\<if\>//g' | sed -e 's/\<in\>//g'| sed -e 's/\<it\>//g'
+  324  sed -e 's/\<and\>//g' test.tsv | sed -e 's/\<or\>//g' | sed -e 's/\<if\>//g' | sed -e 's/\<in\>//g'| sed -e 's/\<it\>//g' > test1.tsv
+  325  sed -e 's/<[^>]*>//g' test1.tsv 
+  326  script ws5.txt
+  327  clear
+  328  history > cmds.log
+  329  mkdir Worksheet7
+  330  ls
+  331  mv ws5.txt ws7.txt
+  332  cp cmds.log Worksheet7/
+  333  cat ws7.txt 
+  334  cp ws7.txt Worksheet7/
+  335  ls
+  336  cd Worksheet7/
+  337  ls
+  338  git init
+  339  git add -A
+  340  git commit -m "final changes"
+  341  git branch -M main
+  342  git remote add origin https://github.com/amarashifar/Worksheet7.git
+  343  git push -u origin main
+  344  clear
+  345  ls
+  346  git pish
+  347  git push
+  348  git remote add origin https://github.com/amarashifar/Worksheet7.git
+  349  ls
+  350  git push
+  351  git init
+  352  ls
+  353  cd
+  354  ls
+  355  rm amazon_reviews_us_Books_v1_02.tsv 
+  356  mkdir Worksheet7
+  357  ls
+  358  rm histogram4.dat 
+  359  rm cronshell.sh
+  360  clear
+  361  ls
+  362  rm *.lo
+  363  rm *.log
+  364  cp /mnt/scratch/amirali/Worksheet7/cmds.log Worksheet7/
+  365  cp /mnt/scratch/amirali/Worksheet7/ws7.txt Worksheet7/
+  366  cd Worksheet7/
+  367  ls
+  368  git init
+  369  git add -A
+  370  git commit -m "final changes"
+  371  git branch -M main
+  372  git remote add origin https://github.com/amarashifar/Worksheet7.git
+  373  git push -u origin main
+  374  git push
+  375  git add cmds.log ws7.txt 
+  376  git push
+  377  git push --set-upstream origin master
+  378  git push -u origin master
+  379  git remote add origin https://github.com/amarashifar/Worksheet7.git
+  380  git push -u origin main
+  381  clrar
+  382  clear
+  383  cd /mnt/scratch/amirali/
+  384  ls
+  385  cd PRODUCTS/
+  386  ls
+  387  touch test.txt
+  388  ls
+  389  clear
+  390  cd /mnt/scratch/amirali/
+  391  ls
+  392  echo "hello" >test.tsv 
+  393  ls
+  394  cd PRODUCTS/
+  395  echo "hello" >test.txt 
+  396  cat test.txt 
+  397  awk '/verified/{print}' amazon_reviews_us_Books_v1_02.tsv > verified.txt
+  398  awk '/unverified/{print}' amazon_reviews_us_Books_v1_02.tsv > unvertified.txt
+  399  cut -f 14 unvertified.txt | sort | uniq -c | sort -nr | head -n 10
+  400  cut -f 14 vertified.txt | sort | uniq -c | sort -nr | head -10
+  401  cut -f 14 verified.txt | sort | uniq -c | sort -nr | head -n 10
+  402  clear
+  403  cd /mnt/scratch/amirali/
+  404  ls
+  405  awk '/verified/{print}' amazon_reviews_us_Books_v1_02.tsv 
+  406  awk '/verified/{print}' amazon_reviews_us_Books_v1_02.tsv | head -n 1
+  407  awk '/verified/{print}' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  408  awk '/unverified/{print}' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  409  awk '/unverified/{print}' amazon_reviews_us_Books_v1_02.tsv 
+  410  awk '/unverified/{print}' amazon_reviews_us_Books_v1_02.tsv > unvertified.txt
+  411  cut -f 14 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | sort | head -n 10
+  412  cut -f 14 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | sort | head -n 1
+  413  cut -f 14 unvertified.txt | sort | uniq -c | sort -rn | head -n 1
+  414  cut -f 14 unvertified.txt | sort | uniq -c | sort -nr
+  415  cut -f 14 unvertified.txt | sort | uniq -c | sort -nr | head -1
+  416  ls
+  417  mkdir Worksheet 8
+  418  history
+  419  script ws8.txt
+  420  ls
+  421  script ws8b.txt
+  422  cat ws8b.txt >> ws8.txt 
+  423  history > cmds.log
+  424  cp ws8.txt Worksheet8
+  425  cp cmds.log Worksheet8 
+  426  ls
+  427  ls Worksheet8 
+  428  ls
+  429  cd Worksheet8
+  430  rm -r Worksheet8 
+  431  mkdir Worksheet8
+  432  ls
+  433  cp ws8.txt Worksheet8
+  434  cp cmds.log Worksheet8 
+  435  cd Worksheet8/
+  436  ls
+  437  git init
+  438  git add -A
+  439  git commit -m "final changes"
+  440  git branch -M main
+  441  git remote add origin https://github.com/amarashifar/Worksheet8.git
+  442  git push -u origin main
+  443  exit
+  444  cd /mnt/scratch/amirali/
+  445  ls
+  446  cd Worksheet8/
+  447  ls
+  448  cd ..
+  449  cd worksheet5/
+  450  ls
+  451  cd ../worksheet7
+  452  ls
+  453  cd ..
+  454  cd worksheet7
+  455  cd Worksheet7
+  456  clear
+  457  ls
+  458  du
+  459  echo "$Jeff is"
+  460  echo '$Jeff is'
+  461  touch s.sh
+  462  nano s.sh 
+  463  chmod 777 s.sh 
+  464  ./s.sh 
+  465  cd ..
+  466  ls
+  467  sed '3q' amazon_file
+  468  sed '3q' downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  469  sed '3q' downloaded_tweets_extend_original_nolf2_NOBOT.tsv
+  470  sed '3q' amazon_reviews_us_Books_v1_02.tsv 
+  471  head -n 3 amazon_reviews_us_Books_v1_02.tsv 
+  472  touch \n*.txt
+  473  ls
+  474  touch '\n*.txt'
+  475  ls
+  476  rm \\n\*.txt 
+  477  ls
+  478  cd Worksheet5
+  479  cd Worksheet
+  480  touch my.log
+  481  touch u.log
+  482  vi my.log 
+  483  nano my.log 
+  484  find . -type f -name “*.log” | xargs sed -i 's/dat/DAT/g'
+  485  find . -type f -name “*.log” -exec sed -i 's/dat/DAT/g' {} \;
+  486  nano my.log 
+  487  find . -type f -name “*.log” -exec sed -i 's/dat/DAT/g' {} \;
+  488  find . -type f -name “*.log” | xargs sed -i 's/dat/DAT/g' 
+  489  sed -n '^,10p' amazon_file
+  490  cd ..
+  491  sed -n '^,10p' amazon_reviews_us_Books_v1_02.tsv 
+  492  type cd
+  493  type eval
+  494  type printf
+  495  type rmidr
+  496  type test
+  497  type expr
+  498  type echo
+  499  type read
+  500  find . -type f -mtime -30 | xargs ls -l
+  501  find . -type f -mtime +30 | xargs ls -l
+  502  z $string
+  503  -z $string
+  504  read x y z
+  505  echo z y x
+  506  echo ‘The special character $VAR echo hello and | ls chap*’
+  507  echo ‘The special character $VAR echo hello and |
+  508  echo ‘The special character $VAR echo hello and | ls *txt’
+  509  echo ‘The special character $VAR echo hello and | ls *.txt’
+  510  echo ‘The special character $VAR echo hello and | ls *.tsv'
+  511  ls
+  512  sed 's/ *|/|/g' amazon_reviews_us_Books_v1_02.tsv 
+  513  sed 's/ *|/|/g' amazon_reviews_us_Books_v1_02.tsv | head -n 3 > amazon_file.tsv
+  514  head -n 3 amazon_reviews_us_Books_v1_02.tsv > amazOriginal.tsv
+  515  diff amazOriginal.tsv amazon_file.tsv 
+  516  cat amazOriginal.tsv 
+  517  nano amazOriginal.tsv 
+  518  nano amazon_file.tsv 
+  519  cat amazon_file.tsv 
+  520  nano amazOriginal.tsv 
+  521  sed 's/ *|/|/g' amazOriginal.tsv > amazon_file.tsv 
+  522  nano amazon_
+  523  nano amazon_file.tsv 
+  524  cd Worksheet5
+  525  ls
+  526  cd worksheet5
+  527  sls
+  528  ls
+  529  history
+  530  cd ..
+  531  ls
+  532  cd Worksheet7/
+  533  ls
+  534  nano s.sh 
+  535  ./s.sh 
+  536  s.sh
+  537  ./s.sh 
+  538  nano s.sh 
+  539  ./s.sh 
+  540  ls
+  541  nano ws7.txt 
+  542  awk ‘/ssn { print }’ ws7.txt 
+  543  awk ‘/ssn/ { print }’ ws7.txt 
+  544  awk ‘ssn{ print }’ ws7.txt 
+  545  touch oe.temp
+  546  find . -type f -name “*.temp” -exec rm -rf {} \;
+  547  ls
+  548  find . -type f -name “*.temp” | xargs rm -rf
+  549  ls
+  550  find . -type f -name “*.temp” -delete
+  551  ls
+  552  df
+  553  nano s.sh 
+  554  ./s.sh 
+  555  nano s.sh 
+  556  sh s.sh 
+  557  execute s.sh 
+  558  ls
+  559  nano 3.txt
+  560  sed '/Load/Button/' 3.txt 
+  561  sed 's/Load/Button' 3.txt 
+  562  sed 's/Load/Button/' 3.txt 
+  563  sed '/Load/Button/' 3.txt 
+  564  sed -e  '/Load/Button/' 3.txt 
+  565  nano 3.txt 
+  566  sed 's/Load/Button/' 3.txt 
+  567  cd ..
+  568  sed -n '3,10p' amazon_reviews_us_Books_v1_02.tsv 
+  569  sed -n '^,10p'  amazon_reviews_us_Books_v1_02.tsv 
+  570  sed 3,10 amazon_reviews_us_Books_v1_02.tsv 
+  571  sed -n, 10p amazon_reviews_us_Books_v1_02.tsv 
+  572  sed 's/ *|/|/g' amazon_reviews_us_Books_v1_02.tsv 
+  573  exit
+  574  clar
+  575  clear
+  576  cd /mnt/scratch/amirali
+  577  ls
+  578  mkdir Worksheet9
+  579  touch randomsample.sj
+  580  rm randomsample.sj 
+  581  touch randomsample.sh
+  582  nano randomsample.sh 
+  583  chmod 777 randomsample.sh 
+  584  ./randomsample.sh 
+  585  / randomsample.sh 
+  586  . randomsample.sh 
+  587  clar
+  588  clear
+  589  $RANDOM
+  590  nano randomsample.sh 
+  591  cd /mnt/scratch/amirali/
+  592  ls
+  593  clear
+  594   echo $(($RANDOM % 100))
+  595  nano randomsample.sh 
+  596  ./ randomsample.sh 
+  597  . randomsample.sh 
+  598  . randomsample.sh wef
+  599  nano randomsample.sh 
+  600  ./randomsample.sh 22 wef
+  601  nano randomsample.sh 
+  602  ./randomsample.sh 
+  603  ls
+  604  nano randomsample.sh 
+  605  ./randomsample.sh 
+  606  ./randomsample.sh 14 mma 
+  607  clear
+  608  ls
+  609  rm cmds.log 
+  610  history > cmds.log
+  611  cp cmds.log Worksheet9/
+  612  cp randomsample.sh Worksheet9/
+  613  cd Worksheet9/
+  614  git init
+  615  git commit -m "final changes"
+  616  git add cmds.log randomsample.sh 
+  617  git commit "final changes" 
+  618  git commit -m "final changes" 
+  619  git branch -M main
+  620  git remote add origin https://github.com/amarashifar/Worksheet9.git
+  621  git push -u origin main
+  622  cd /mnt/scratch/amirali/
+  623  ls
+  624  mkdir A5
+  625  ls
+  626  head downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  627  cat downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  628  rm downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  629  history
+  630  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv A5
+  631  cd A5`
+  632  cd A5/
+  633  awk -F"\t" '($2 != $6) {print $0}' downloaded_tweets_extend_nolf2.tsv > downloaded_tweets_extend_nolf2_NOBOT.tsv
+  634  ls
+  635  rm downloaded_tweets_extend_nolf2.tsv 
+  636  cp /home/test/A1/downloaded_tweets_extend_original_nolf2 A5
+  637  cp /home/test/A1/downloaded_tweets_extend_original_nolf A5
+  638  cp /home/test/A1/downloaded_tweets_extend_original_nolf2_NOBOT.tsv A5
+  639  ls
+  640  cd
+  641  cd /mnt/scratch/amirali/
+  642  ,s
+  643  ls
+  644  cd A5/
+  645  ls
+  646  rm A5 
+  647  cd ..
+  648  cp /home/test/A1/downloaded_tweets_extend_original_nolf2_NOBOT.tsv A5
+  649  ls
+  650  cd A5/
+  651  ls
+  652  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  653  head hashtags.tsv 
+  654  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  655  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '"\'|  sort | uniq -c | sort -nr | head -n 30
+  656  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |  sort | uniq -c | sort -nr | head -n 30
+  657  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |  sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  658  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  659  head hashtags.tsv 
+  660  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'
+  661  history
+  662  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,6  | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  663  head hashtags.tsv 
+  664  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4   | awk ' { t = $1; $1 = $2; $2 = t; print; }' | hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'  > hashtags.tsv
+  665  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4   | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  666  head hashtags.tsv 
+  667  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4   |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  668  head hashtags.tsv 
+  669  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4   | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  670  awk '{print $1,$2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'
+  671  awk '{print $1, $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'
+  672  awk 'BEGIN{FS="|"} {print $2 " " $1}'   hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'
+  673  cut -f 1,2  hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'
+  674  cut -f 1  hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'
+  675  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4   | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  676  head head
+  677  head hashtags.tsv 
+  678  awk '{print $2}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  679  awk '{print $1}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  680  awk '{print $1}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' | awk '{ if ($1 >= 3) {print} }'
+  681  awk '{print $1}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  682  awk '{print $1}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' > hashtags.tsv 
+  683  cut -f 2 hashtags.tsv 
+  684  head hashtags.tsv 
+  685  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4   | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > hashtags.tsv
+  686  head hashtags.tsv 
+  687  awk '{print $1}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }' > hashtags1.tsv
+  688  head hashtags1.tsv 
+  689  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2,4   | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > UserId.tsv
+  690  head UserId.tsv 
+  691  cut -f 2 UserId.tsv 
+  692  grep "replied_to" downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 2   | awk ' { t = $1; $1 = $2; $2 = t; print; }'   > UserId.tsv
+  693  head UserId.tsv 
+  694  sort UserId.tsv 
+  695  sort UserId.tsv | uniq -c
+  696  sort UserId.tsv | uniq -c | sort -nr
+  697  awk '{print $1}' hashtags.tsv |tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'|  sort | uniq -c | sort -nr | awk '{ if ($1 >= 3) {print} }'
+  698  exit
+  699  cd /mnt/scratch/amirali/
+  700  ls
+  701  cd A5/
+  702  ls
+  703  rm ?ashtags*
+  704  ls
+  705  grep replied_to downloaded_tweets_extend_nolf2_NOBOT.tsv > downloaded_tweets_extend_nolf2_repliedto.tsv
+  706  grep retweeted downloaded_tweets_extend_nolf2_NOBOT.tsv > downloaded_tweets_extend_nolf2_retweeted.tsv
+  707  ls
+  708  head downloaded_tweets_extend_nolf2_repliedto.tsv 
+  709  clear
+  710  cut -f 2,6 downloaded_tweets_extend_nolf2_repliedto.tsv 
+  711  cut -f 2,6 downloaded_tweets_extend_nolf2_repliedto.tsv | awk ' { t = $1; $1 = $2; $2 = t; print; }
+  712  cut -f 2,6 downloaded_tweets_extend_nolf2_repliedto.tsv | awk ' { t = $1; $1 = $2; $2 = t; print; 
+  713  cut -f 2,6 downloaded_tweets_extend_nolf2_repliedto.tsv | awk ' { t = $1; $1 = $2; $2 = t; print; }'
+  714  cut -f 2,6 downloaded_tweets_extend_nolf2_repliedto.tsv | awk ' { t = $1; $1 = $2; $2 = t; print; }' > a3_2.influencers.tsv
+  715  awk '{print $1}' downloaded_tweets_extend_nolf2_repliedto.tsv 
+  716  awk '{print $1}' downloaded_tweets_extend_nolf2_repliedto.tsv | head -n 10
+  717  cut -f 2,6 downloaded_tweets_extend_nolf2_repliedto.tsv 
+  718  awk '{print $1}' downloaded_tweets_extend_nolf2_repliedto.tsv | head -n 10
+  719  cut -f 2,6 downloaded_tweets_extend_nolf2_repliedto.tsv | awk ' { t = $1; $1 = $2; $2 = t; print; }'
+  720  cut -f 6 downloaded_tweets_extend_nolf2_repliedto.tsv |awk '{ if ($1 >= 3) {print} }'
+  721  cut -f 6 downloaded_tweets_extend_nolf2_repliedto.tsv |awk '{ if ($1 >= 3) {print} }' > influenctialUsers.tsv
+  722  fgrep influenctialUsers.tsv downloaded_tweets_extend_nolf2_repliedto.tsv 
+  723  frep influenctialUsers.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  724  fgrep -f influenctialUsers.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  725  fgrep -f influenctialUsers.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv | wc
+  726  here stop and record
+  727  fgrep -f influenctialUsers.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4
+  728  fgrep -f influenctialUsers.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' 
+  729  fgrep -f influenctialUsers.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'  > hashtags_repliedto.tsv
+  730  for INFL in 'cat influenctialUsers.tsv' ; do echo "-------------" ; echo $INFL ; grep $INFEL  downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4 ; 
+  731  for INFL in 'cat influenctialUsers.tsv' ; do echo "-------------" ; echo $INFL ; grep $INFEL  downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4  ; 
+  732  for INFL in 'cat influenctialUsers.tsv' ; do echo "-------------" ; echo $INFL ; grep $INFEL  downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4; 
+  733  for INFL in 'cat influenctialUsers.tsv' ; do echo "-------------" ; echo $INFL ; grep $INFEL  downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4; done
+  734  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv > downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv
+  735  for INFL in 'cat influenctialUsers.tsv' ; do echo "______________"; echo $INFL;  grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4}'; done 
+  736  for INFL in 'cat influenctialUsers.tsv' ; do echo "______________"; echo $INFL;  grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4}'|tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done 
+  737  for INFL in 'cat influenctialUsers.tsv' ; do echo "______________" ; echo $INFL ;  grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4}'|tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done 
+  738  mkdir infl_replied
+  739  for INFL in 'cat influenctialUsers.tsv' ; do echo "______________" ; echo $INFL ;  grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4}'|tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done 
+  740  cd infl_replied/
+  741  ls
+  742  cd ..
+  743  cat influenctialUsers.tsv 
+  744  for INFL in cat 'influenctialUsers.tsv' ; 
+  745  for INFL in cat 'influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv ; done
+  746  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv ; done
+  747  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4
+  748  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 ; done
+  749  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  750  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done
+  751  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/INFL.hashtags ; done
+  752  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done
+  753  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'  ; done
+  754  exit
+  755  ls
+  756  cd A3/
+  757  ls
+  758  head replied_to_graph.csv 
+  759  ls
+  760  nano a3.txt 
+  761  cd
+  762  cd A4/
+  763  ls
+  764  nano a4.txt 
+  765  cd
+  766  A3
+  767  cd A3/
+  768  ls
+  769  cat a3.txt 
+  770  cd /mnt/scratch/amirali/
+  771  ls
+  772  cd A5/
+  773  ls
+  774  for INFL in 'cat a3.2.influencer.tsv' ;  do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done 
+  775  for INFL in 'cat a3.2.influencer.tsv' 
+  776  for INFL in 'cat a3.2.influencer.tsv'  ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4} '; 
+  777  clear
+  778  for INFL in 'cat a3.2.influencer.tsv'  ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4} '; done
+  779  for INFL in 'cat a3.2.influencer.tsv'  ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4} '| tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' ; done
+  780  for INFL in 'cat a3.2.influencer.tsv'  ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4} '| tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | sed "s/\"//g"> infl_replied/$INFL.hashtags ; done
+  781  cat a3.2.influencer.tsv 
+  782  for INFL in 'cat a3.2.influencer.tsv'  ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4} '| tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | sed "s/\"//g"> infl_replied/$INFL.hashtags ; done
+  783  for INFL in cat influencers.NOBOTS.txt ; do  grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv  downloaded_tweets_extend_nolf2_REPLIED.tsv | awk -F "\t"  '{print $4}' | tr "," "\n" | sed "s/"//g" > infl_replies/$INFL.hashtags ; done
+  784  for INFL in cat a3.2.influencer.tsv ; do  grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv  downloaded_tweets_extend_nolf2_REPLIED.tsv | awk -F "\t"  '{print $4}' | tr "," "\n" | sed "s/"//g" > infl_replies/$INFL.hashtags ; done
+  785  clear
+  786  rm *.tsv
+  787  ls
+  788  cp /home/test/A1/downloaded_tweets_extend_original_nolf2_NOBOT.tsv A5
+  789  cd ..
+  790  cp /home/test/A1/downloaded_tweets_extend_original_nolf2_NOBOT.tsv A5
+  791  cp /home/test/A1/downloaded_tweets_extend_nolf2_NOBOT.tsv A5
+  792  cd A5
+  793  ls
+  794  rm A5 
+  795  grep replied_to downloaded_tweets_extend_original_nolf2.tsv > downloaded_tweets_extend_original_nolf2_REPLIED.tsv
+  796  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv > downloaded_tweets_extend_original_nolf2_REPLIED.tsv
+  797  grep replied_to downloaded_tweets_extend_nolf2.tsv > downloaded_tweets_extend_nolf2_REPLIED.tsv
+  798  grep replied_to downloaded_tweets_extend_nolf2_NOBOT.tsv > downloaded_tweets_extend_nolf2_REPLIED.tsv
+  799  ls
+  800  awk -F "\t" '($2 != $6) {print $6}' downloaded_tweets_extend_original_nolf2_REPLIED.tsv | sort | uniq -c | sort -n -k 1 | awk '($1 >=3) {print $2}' > influencers.NOBOTS.txt
+  801  ls
+  802  ls *.tx
+  803  ls *.txt
+  804  awk -F "\t" '($2 != $6) {print $6}' downloaded_tweets_extend_nolf2_REPLIED.tsv | sort | uniq -c | sort -n -k 1 | awk '($1 >=3) {print $2}' >> influencers.NOBOTS.txt
+  805  for INFL in cat influencers.NOBOTS.txt ; do  grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv  downloaded_tweets_extend_nolf2_REPLIED.tsv | awk -F "\t"  '{print $4}' | tr "," "\n" | sed "s/"//g" > infl_replies/$INFL.hashtags ; done
+  806  for INFL in 'cat influencers.NOBOTS.txt' ; do  grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv  downloaded_tweets_extend_nolf2_REPLIED.tsv | awk -F "\t"  '{print $4}' | tr "," "\n" | sed "s/"//g" > infl_replies/$INFL.hashtags ; done
+  807  for INFL in 'cat influencers.NOBOTS.txt' ; do grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv | awk -F "\t" '{print $4}' | tr "," "\n"  | sed "s/\"//g" 
+  808  for INFL in 'cat influencers.NOBOTS.txt' ; do grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv | awk -F "\t" '{print $4}' | tr "," "\n"  | sed "s/\"//g"  ; done
+  809  for INFL in 'cat influencers.NOBOTS.txt' ; do grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv | awk -F "\t" '{print $4}' | tr "," "\n"  | sed "s/\"//g" | tr [:upper:] [:lower:] ; done
+  810  for INFL in 'cat influencers.NOBOTS.txt' ; do grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv | awk -F "\t" '{print $4}' | tr "," "\n"  | sed "s/\"//g" | tr [:upper:] [:lower:] > infl_replied/$INFL.hashtags ; done
+  811  for INFL in 'cat influencers.NOBOTS.txt' ; do grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv | awk -F "\t" '{print $4}' | tr "," "\n"  | sed "s/\"//g" | tr [:upper:] [:lower:] > infl_replied/$INFL.hashtags;done
+  812  for INFL in 'cat influencers.NOBOTS.txt' ; do grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv | awk -F "\t" '{print $4}' | tr "," "\n"  | sed "s/\"//g" | tr [:upper:] [:lower:] ; done
+  813  for INFL in 'cat influencers.NOBOTS.txt' ; do grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv | awk -F "\t" '{print $4}' | tr "," "\n"  | sed "s/\"//g" | tr [:upper:] [:lower:] > infl_replied/$INFL.hashtags; done
+  814  ls
+  815  cd infl_replied/
+  816  ls
+  817  for INFL in 'cat influencers.NOBOTS.txt' ; do grep $INFL downloaded_tweets_extend_original_nolf2_REPLIED.tsv | awk -F "\t" '{print $4}' | tr "," "\n"  | sed "s/\"//g" | tr [:upper:] [:lower:] > infl_replied/$INFL.hashtags ; done
+  818  cd ..
+  819  exit
+  820  time python3 numbers.py 
+  821  cd /mnt/scratch/amirali/
+  822  mkdir worksheet10
+  823  ls
+  824  script ws10.txt
+  825  touch numbers.sh
+  826  nano numbers.sh 
+  827  ls
+  828  cd Worksheet9/
+  829  ls
+  830  nano randomsample.sh 
+  831  cd ../worksheet10
+  832  nano numbers.sh
+  833  chmod 777 numbers.sh 
+  834  ./ numbers.sh 
+  835  . numbers.sh 
+  836  nano numbers.sh 
+  837  . numbers.sh 
+  838  ls
+  839  cd ..
+  840  cd worksheet10
+  841  cp numbers.sh /mnt/scratch/amirali/
+  842  cd ..
+  843  ls
+  844  pwd
+  845  nano numbers.sh
+  846  . numbers.sh 
+  847  nano numbers.sh
+  848  . numbers.sh 
+  849  nano numbers.sh
+  850  . numbers.sh 
+  851  nano numbers.sh 
+  852  . numbers.sh 
+  853  nano numbers.
+  854  nano numbers.sh 
+  855  . numbers.sh 
+  856  nano numbers.sh 
+  857  . numbers.sh 
+  858  nano numbers.sh 
+  859  . numbers.sh 
+  860  nano numbers.sh 
+  861  . numbers.sh 
+  862  nano numbers.sh 
+  863  . numbers.sh 
+  864  exit
+  865  clear
+  866  cd /mnt/scratch/amirali/
+  867  ls
+  868  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done
+  869  cd A5/
+  870  ls
+  871  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done
+  872  clear
+  873  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done
+  874  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/INFL.hashtags ; done
+  875  cd infl_replied/
+  876  ls
+  877  rm INFL.hashtags 
+  878  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done
+  879  cd ..
+  880  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done
+  881  head infl
+  882  head influenctialUsers.tsv 
+  883  fgrep -f influenctialUsers.tsv downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv 
+  884  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  885  for INFL in 'cat influenctialUsers.tsv';do echo "-------" ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  886  for INFL in 'cat influenctialUsers.tsv'; echo "-------" ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  887  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  888  for INFL in 'cat influenctialUsers.tsv' ; do echo "___________" ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  889  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv|echo "________" | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  890  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  891  wc downloaded_tweets_extend_nolf2_repliedto.tsv 
+  892  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done | wc
+  893  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags ; done 
+  894  ls
+  895  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' > infl_replied/$INFL.hashtags ; done 
+  896  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | awk -F "\t" '{print $4}'| tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' > infl_replied/$INFL.hashtags ; done 
+  897  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' > infl_replied ; done 
+  898  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' > infl_replied/$INFL.tsv ; done 
+  899  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv 
+  900  for INFL in 'cat influenctialUsers.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv ; done
+  901  for INFL in influenctialUsers.tsv ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv ; done
+  902  head downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv 
+  903  clear
+  904  ls
+  905  rm *.tsv
+  906  ls
+  907  cd
+  908  cd /mnt/scratch/amirali/
+  909  ls
+  910  cd A4/
+  911  ls
+  912  cp /home/test/A1/downloaded_tweets_extend_original_nolf2_NOBOT.tsv A5
+  913  cp /home/test/A1/downloaded_tweets_extend_nolf2_NOBOT.tsv A5
+  914  cd ..
+  915  cd A5/
+  916  ls
+  917  cd ..
+  918  cp /home/test/A1/downloaded_tweets_extend_original_nolf2_NOBOT.tsv A5
+  919  cp /home/test/A1/downloaded_tweets_extend_nolf2_NOBOT.tsv A5
+  920  ls
+  921  cd A5/
+  922  ls
+  923  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4
+  924  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 
+  925  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4 | sort 
+  926  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 | sort 
+  927  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 | sort | head -n 10
+  928  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 | uniq -c | sort -nr | head -n 10
+  929  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 | uniq -c | sort -nr | awk '{if ($1 >=3){print}}'
+  930  cd 
+  931  cd A3/
+  932  ls
+  933  cat a3.txt 
+  934  cd /mnt/scratch/amirali/
+  935  cd A5/
+  936  ls
+  937  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  938  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6
+  939  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |  awk '{ if ($1 >= 3) {print} }'
+  940  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort  | awk '{ if ($1 >= 3) {print} }'
+  941  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort| uniq -c  | awk '{ if ($1 >= 3) {print} }'
+  942  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort  | awk '{ if ($1 >= 3) {print} }'
+  943  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort| uniq -c  | awk '{ if ($1 >= 3) {print} }'
+  944  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort| uniq  | awk '{ if ($1 >= 3) {print} }'
+  945  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort| uniq |sort -nr | awk '{ if ($1 >= 3) {print} }'
+  946  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort| uniq  | awk '{ if ($1 >= 3) {print} }'
+  947  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort  | awk '{ if ($1 >= 3) {print} }'
+  948  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 6 |sort  | awk '{ if ($1 >= 3) {print} }' > a3.2.influencer.tsv
+  949  head a3.2.influencer.tsv 
+  950  fgrep -f a3.2.influencer.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv 
+  951  fgrep -f a3.2.influencer.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv | wc
+  952  fgrep -f a3.2.influencer.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4
+  953  fgrep -f a3.2.influencer.tsv downloaded_tweets_extend_original_nolf2_NOBOT.tsv | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'
+  954  grep replied_to downloaded_tweets_extend_original_nolf2_NOBOT.tsv > downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv 
+  955  grep retweeted downloaded_tweets_extend_original_nolf2_NOBOT > downloaded_tweets_extend_original_nolf2_NOBOT_retweeted.tsv
+  956  ls
+  957  head downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv 
+  958  vi downloaded_tweets_extend_original_nolf2_NOBOT_retweeted.tsv 
+  959  rm downloaded_tweets_extend_original_nolf2_NOBOT_retweeted.tsv 
+  960  grep retweeted downloaded_tweets_extend_original_nolf2_NOBOT.tsv > downloaded_tweets_extend_original_nolf2_NOBOT_retweeted.tsv
+  961  vi downloaded_tweets_extend_original_nolf2_NOBOT_retweeted.tsv 
+  962  vi downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv 
+  963  fgrep -f a3.2.influencer.tsv downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | wc
+  964  fgrep -f a3.2.influencer.tsv downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\'
+  965  for INFL in 'cat a3.2.influencer.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  966  for INFL in 'cat a3.2.influencer.tsv' ; do echo "________"; echo $INFL; grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  967  echo "INFL"
+  968  for INFL in 'cat a3.2.influencer.tsv' ; grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  969  for INFL in 'cat a3.2.influencer.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  970  cat a3.2.influencer.tsv 
+  971  for $INFL in 'cat a3.2.influencer.tsv' ; do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  972  for INFL in 'cat a3.2.influencer.tsv';do echo $INFL ; grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  973  for INFL in 'cat a3.2.influencer.tsv' ;  do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done
+  974  for INFL in 'cat a3.2.influencer.tsv' ;  do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' ; done | wc
+  975  for INFL in 'cat a3.2.influencer.tsv' ;  do grep $INFL downloaded_tweets_extend_original_nolf2_NOBOT_repliedto.tsv  | cut -f 4 | tr "," "\n"  | tr [:upper:] [:lower:]| tr -d ' ' | tr -d '\"' |tr -d '"\' > infl_replied/$INFL.hashtags; done | wc
+  976  clear
+  977  cd /mnt/scratch/amirali/
+  978  ls
+  979  script b.txt
+  980  nano numbers.
+  981  nano numbers.sh
+  982  script b.txt
+  983  cat b.txt >> ws10.txt 
+  984  history > cmds.log 
